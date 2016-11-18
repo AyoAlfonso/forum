@@ -1,0 +1,15 @@
+<template name = "hello">
+
+<head>
+    <title>My Meteor Forum</title>
+</head>
+<body>
+<div class="page">
+    <h1>Topics</h1>
+    <div ng-repeat="topic in topics">
+        <a ui-sref="topic({topicId: topic._id})">{{ topic.name }}</a>
+    </div>
+</div>
+
+</body>
+</template>
