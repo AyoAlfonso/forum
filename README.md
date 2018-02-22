@@ -1,2 +1,3 @@
 # MeteorForum
-A forum app I built with meteorjs. 
+
+Forum app I built with meteorjs framework. 
